@@ -9,14 +9,17 @@ $Color-4:#004C73;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
 }
 *, *::before, *::after {
     box-sizing: inherit;
 }
 body {
     height: 100%;
-    font-family: 'Kanit', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: $Color-2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }

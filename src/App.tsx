@@ -33,7 +33,7 @@ function App() {
                     <div className="generated-number">
                         <input type="text" name="generated-number-field" id="generated-number-field" className='generated-number-field' readOnly value={randomValue}/>
                         <button className='copy-btn' id='copy-btn' onClick={copyToClipBoard}>
-                            <img src={copy} width="50" height="50" className='copy-btn-icon'/>
+                            <img src={copy} width="50" height="50" className='copy-btn-icon' alt='Copy Icon'/>
                         </button>
                     </div>
                 </section>
